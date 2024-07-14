@@ -1,9 +1,12 @@
+import random
 from django.shortcuts import render, redirect, HttpResponse
+import requests
 from app.EmailBackend import EmailBackend
 from django.contrib.auth import authenticate, logout, login
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from app.models import CustomUser
+from django import forms
 
 def BASE(request):
     return render(request, "base.html")
@@ -69,3 +72,14 @@ def PROFILE_UPDATE(request):
             messages.error(request, "Profile Updation Failed")
 
     return render(request, 'profile.html')
+
+def FETCH_BOOK_DATA(request):
+    if request.method == "POST":
+        query = request.FILES.get("query")
+        url = f"https://www.googleapis.com/books/v1/volumes?q=intitle:{query}"
+        response = requests.get(url)
+        if response.status_code == 200:
+            results = response.json().get('items', [])
+            print(results)
+
+    return render(request, '../templates/base.html', {'results': results})

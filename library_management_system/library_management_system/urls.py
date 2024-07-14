@@ -1,4 +1,3 @@
-
 from django.contrib import admin
 from django.urls import path
 from django.conf import settings
@@ -16,6 +15,6 @@ urlpatterns = [
     path("doLogout/", views.doLogout, name="logout"),
     path("Profile/", views.PROFILE, name="profile"),
     path("Profile/update/", views.PROFILE_UPDATE, name= "profile_update"),
- 
+    path("Search/books/", views.FETCH_BOOK_DATA, name= "search_query"),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
