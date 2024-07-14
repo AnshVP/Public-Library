@@ -1,0 +1,403 @@
+.sequoia-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sequoia-sequoia {
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .sequoia-text {
+    top: 450px;
+    left: 614px;
+    color: rgba(0, 0, 0, 0.75);
+    height: auto;
+    position: absolute;
+    font-size: 26px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Rosarivo;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sequoia-navbar {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(0, 0, 0, 0.10000000149011612);
+    border-style: solid;
+    border-width: 0 0 1px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .sequoia-backgroundimage {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .sequoia-connormcsheffrey-i1-voe0io9tgunsplash1 {
+    top: -1004px;
+    left: 0px;
+    width: 1440px;
+    height: 2158px;
+    position: absolute;
+  }
+  .sequoia-rectangle1 {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 150px;
+    position: absolute;
+  }
+  .sequoia-frame2 {
+    gap: 622px;
+    top: 25px;
+    left: 40px;
+    width: 1360px;
+    height: 125px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .sequoia-logo {
+    top: 0px;
+    left: 0px;
+    width: 432px;
+    height: 125px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .sequoia-text02 {
+    top: 61px;
+    left: 85px;
+    color: rgba(18, 108, 62, 1);
+    height: auto;
+    position: absolute;
+    font-size: 26px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Homemade Apple;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sequoia-vector {
+    top: -2.5011104298755527e-11px;
+    left: -1.514763425802812e-9px;
+    width: 72px;
+    height: 125px;
+    position: absolute;
+  }
+  .sequoia-menu {
+    gap: 35px;
+    top: 79px;
+    left: 996px;
+    width: 364px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+  }
+  .sequoia-text04 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: BreezeSans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sequoia-text06 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: BreezeSans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sequoia-text08 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: BreezeSans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sequoia-text10 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: BreezeSans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sequoia-search {
+    top: 150px;
+    left: 0px;
+    width: 1440px;
+    height: 250px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(0, 0, 0, 0.10000000149011612);
+    border-style: solid;
+    border-width: 0 0 1px;
+    background-color: rgba(251, 251, 251, 1);
+  }
+  .sequoia-search1 {
+    top: 70px;
+    left: 469px;
+    width: 501px;
+    height: 126px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .sequoia-text12 {
+    color: rgba(0, 0, 0, 0.75);
+    height: auto;
+    position: absolute;
+    font-size: 26px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Overlock;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sequoia-search2 {
+    gap: 10px;
+    top: 86px;
+    left: 0px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+  }
+  .sequoia-frame1 {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .sequoia-text14 {
+    top: 9px;
+    left: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: BreezeSans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sequoia-frame21 {
+    width: 91px;
+    height: 40px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(1, 156, 223, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgba(1, 156, 223, 0.10000000149011612);
+  }
+  .sequoia-text16 {
+    top: 9px;
+    left: 18px;
+    color: rgba(1, 156, 223, 1);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Medium;
+    text-align: left;
+    font-family: BreezeSans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sequoia-text18 {
+    top: 42px;
+    color: rgba(0, 0, 0, 0.5);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: BreezeSans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sequoia-frame4 {
+    gap: 20px;
+    top: 525px;
+    left: 470px;
+    width: 501px;
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    align-items: center;
+    border-color: rgba(0, 0, 0, 0.25);
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 5px;
+  }
+  .sequoia-book-cover {
+    width: 120.5999984741211px;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.05000000074505806) ;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(0, 0, 0, 0.10000000149011612);
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 1px;
+  }
+  .sequoia-image2 {
+    top: 0px;
+    left: 0px;
+    width: 121px;
+    height: 180px;
+    position: absolute;
+  }
+  .sequoia-frame6 {
+    gap: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .sequoia-frame3 {
+    gap: 10px;
+    width: 340px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .sequoia-text20 {
+    color: rgba(0, 0, 0, 1);
+    width: 340px;
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: BreezeSans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sequoia-text22 {
+    color: rgba(0, 0, 0, 0.75);
+    width: 340px;
+    height: auto;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: BreezeSans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sequoia-text23 {
+    text-decoration: NONE;
+  }
+  .sequoia-text24 {
+    text-decoration: UNDERLINE;
+  }
+  .sequoia-text25 {
+    text-decoration: NONE;
+  }
+  .sequoia-text26 {
+    text-decoration: UNDERLINE;
+  }
+  .sequoia-available {
+    display: flex;
+    padding: 5px 10px;
+    overflow: hidden;
+    align-items: center;
+    border-color: rgba(91, 189, 66, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    background-color: rgba(94, 189, 63, 0.10000000149011612);
+  }
+  .sequoia-text28 {
+    color: rgba(94, 189, 63, 1);
+    height: auto;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: BreezeSans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  

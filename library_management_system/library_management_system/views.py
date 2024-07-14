@@ -22,9 +22,6 @@ def doLogin(request):
             elif user_type=='2':
                 return redirect("staff_home")
                 
-            elif user_type=='3':
-                return redirect("student_home")
-                
             else:
                 messages.error(request,"Email and Password are Invalid")
                 return redirect('login')

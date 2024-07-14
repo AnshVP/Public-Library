@@ -9,12 +9,13 @@ from . import views
 urlpatterns = [
     # Admin  
     path("admin/", admin.site.urls),
-    path("base/", views.BASE, name="base"),
-    path("", views.LOGIN, name="login"),
+    # path("base/", views.BASE, name="base"),
+    path("login/", views.LOGIN, name="login"),
+    path("", views.BASE, name="base"),
     path("doLogin/", views.doLogin, name="doLogin"),
     path("doLogout/", views.doLogout, name="logout"),
     path("Profile/", views.PROFILE, name="profile"),
-    path("Profile/update/", views.PROFILE_UPDATE, name="profile_update"),
+    path("Profile/update/", views.PROFILE_UPDATE, name= "profile_update"),
  
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

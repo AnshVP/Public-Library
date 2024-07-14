@@ -5,7 +5,73 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <title>Public Library - Dashboard</title>
+    <meta property="twitter:card" content="summary_large_image" />
+    <title>Sequoia Central Library - Dashboard</title>
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rosarivo:ital,wght@0,400;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
     <link rel="shortcut icon" href="{% static 'assets/img/favicon.png' %}">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap">
@@ -19,10 +85,97 @@
 </head>
 
 <body>
-    <div class="main-wrapper">
-        {% include 'includes/header.html' %}
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="../static/assets/css/base.css" rel="stylesheet" />
+
+      <div class="sequoia-container">
+        <div class="sequoia-sequoia">
+          <span class="sequoia-text"><span>Today’s Selection</span></span>
+          <div class="sequoia-navbar">
+            <div class="sequoia-backgroundimage">
+              <img
+                src="public/external/connormcsheffreyi1voe0io9tgunsplash11156-n2uo-2200h.png"
+                alt="connormcsheffreyI1Voe0IO9tgunsplash11156"
+                class="sequoia-connormcsheffrey-i1-voe0io9tgunsplash1"
+              />
+              <img
+                src="banner image.png"
+                alt="Rectangle11156"
+                class="sequoia-rectangle1"
+              />
+            </div>
+            <div class="sequoia-frame2">
+              <div class="sequoia-logo">
+                <span class="sequoia-text02">
+                  <span>Sequoia Central Library</span>
+                </span>
+                <img
+                  src="Vector.svg"
+                  alt="Vector4215"
+                  class="sequoia-vector"
+                />
+              </div>
+              <div class="sequoia-menu">
+                <span class="sequoia-text04"><span>Search</span></span>
+                <span class="sequoia-text06"><span>Explore</span></span>
+                <span class="sequoia-text08"><span>My Books</span></span>
+                <span class="sequoia-text10"><span>My Account</span></span>
+              </div>
+            </div>
+          </div>
+          <div class="sequoia-search">
+            <div class="sequoia-search1">
+              <span class="sequoia-text12">
+                <span>your next favorite book is one search away</span>
+              </span>
+              <div class="sequoia-search2">
+                <div class="sequoia-frame1">
+                  <span class="sequoia-text14"><span>Search Book</span></span>
+                </div>
+                <div class="sequoia-frame21">
+                  <span class="sequoia-text16"><span>Search</span></span>
+                </div>
+              </div>
+              <span class="sequoia-text18">
+                <span>Search and quickly find books by title and author</span>
+              </span>
+            </div>
+          </div>
+          <div class="sequoia-frame4">
+            <div class="sequoia-book-cover">
+              <img
+                src="venture deals.png"
+                alt="image24185"
+                class="sequoia-image2"
+              />
+            </div>
+            <div class="sequoia-frame6">
+              <div class="sequoia-frame3">
+                <span class="sequoia-text20">
+                  <span>
+                    Venture Deals: Be Smarter Than Your Lawyer and Venture
+                    Capitalist&nbsp;
+                  </span>
+                </span>
+                <span class="sequoia-text22">
+                  <span class="sequoia-text23">by&nbsp;</span>
+                  <span class="sequoia-text24">Brad Feld</span>
+                  <span class="sequoia-text25">&nbsp;(Author),&nbsp;</span>
+                  <span class="sequoia-text26">Jason Mendelson</span>
+                  <span>&nbsp;(Author)</span>
+                </span>
+              </div>
+              <div class="sequoia-available">
+                <span class="sequoia-text28"><span>Available</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="main-wrapper">
         
-        {% include 'includes/sidebar.html' %}
         <div class="page-wrapper">
             <div class="content container-fluid">
                 {% block content %}
@@ -44,7 +197,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
 

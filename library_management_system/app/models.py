@@ -3,9 +3,8 @@ from django.contrib.auth.models import AbstractUser
 
 class CustomUser(AbstractUser):
     USER = (
-        (1,"HOD"),
-        (2,"STAFF"),
-        (3,"STUDENT"),
+        (1,"LIBRARIAN"),
+        (2,"USER"),
     )
 
     user_type=models.CharField(choices=USER, max_length=50, default=1)
